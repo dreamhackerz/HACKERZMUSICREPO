@@ -8,7 +8,7 @@ from ThavaXMusic.core.call import THAVA
 from ThavaXMusic.utils import bot_sys_stats
 from ThavaXMusic.utils.decorators.language import language
 from ThavaXMusic.utils.inline import supp_markup
-from config import BANNED_USERS, PING_IMG_URL, SUPPORT_CHAT
+from config import BANNED_USERS, SUPPORT_CHAT
 
 
 @app.on_message(filters.command(["ping", "alive"]) & ~BANNED_USERS)
@@ -16,7 +16,7 @@ from config import BANNED_USERS, PING_IMG_URL, SUPPORT_CHAT
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_photo(
-        photo=PING_IMG_URL,
+        photo="https://telegra.ph/file/9a6f6264e6190b6418d7c.jpg",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await THAVA.ping()
