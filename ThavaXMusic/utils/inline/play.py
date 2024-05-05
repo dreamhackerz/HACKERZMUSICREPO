@@ -70,11 +70,11 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
                  [
             InlineKeyboardButton(
-                text="⇆ 𝐒ʜᴜғғʟᴇ ⇆",
-                callback_data=f"ADMIN Shuffle|{chat_id}",
+                text="❤️‍🔥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 🥂",
+                url=f"https://t.me/HACKERZSUPPORT",
             ),
             InlineKeyboardButton(
-                text="↻ 𝐋ᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+                text="❤️‍🔥 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🥂", url=f"https://t.me/HACKERZUPDATES"
             ),
          ],
         [
@@ -99,11 +99,11 @@ def stream_markup(_, chat_id):
         ],
                  [
             InlineKeyboardButton(
-                text="⇆ 𝐒ʜᴜғғʟᴇ ⇆",
-                callback_data=f"ADMIN Shuffle|{chat_id}",
+                text="❤️‍🔥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 🥂",
+                url=f"https://t.me/HACKERZSUPPORT",
             ),
             InlineKeyboardButton(
-                text="↻ 𝐋ᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+                text="❤️‍🔥 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🥂", url=f"https://t.me/HACKERZUPDATES"
             ),
          ],
         [
