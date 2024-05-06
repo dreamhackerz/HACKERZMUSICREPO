@@ -188,7 +188,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
             button_text = "๏ ❤️‍🔥 𝑽𝒊𝒆𝒘 𝑵𝒆𝒘 𝑴𝒆𝒎𝒃𝒆𝒓 🥂 ๏"
-            add_button_text = "๏ ❤️‍🔥 𝑲𝒊𝒅𝒏𝒂𝒑 𝑴𝒆 🥂 ๏"
+            add_button_text = "๏ ❤️‍🔥 𝑳𝒆𝒕'𝒔 𝒈𝒐 𝒕𝒐𝒈𝒆𝒕𝒉𝒆𝒓, 𝑯𝒐𝒏𝒆𝒚 🥂 ๏"
             deep_link = f"tg://openmessage?user_id={user.id}"
             add_link = f"https://t.me/{app.username}?startgroup=true"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
